@@ -1,0 +1,395 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="37dp"
+            android:background="@drawable/baseline_fastfood_24"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:drawableRight="@drawable/baseline_account_circle_24"
+            android:text="Food Delivery"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="search for dishes or retaurants"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Hey!What's on your mind?"
+        android:textColor="#6B6E73"/>
+    <HorizontalScrollView android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="67dp"
+                    android:layout_height="66dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/chickenbiriyani"/>
+
+                <ImageView
+                    android:layout_width="78dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/noodles"/>
+
+                <ImageView
+                    android:layout_width="86dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/burger"/>
+                <ImageView
+                    android:layout_width="86dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/sandwich"/>
+                <ImageView
+                    android:layout_width="86dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/pasta"/>
+                <ImageView
+                    android:layout_width="86dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/friedrice"/>
+                <ImageView
+                    android:layout_width="86dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shawarma"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Biriyani"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Noodles"
+                    android:layout_marginLeft="40dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Burger"
+                    android:layout_marginLeft="40dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sandwich"
+                    android:layout_marginLeft="40dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pasta"
+                    android:layout_marginLeft="40dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Friedrice"
+                    android:layout_marginLeft="60dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rolls"
+                    android:layout_marginLeft="60dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/pizza" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/chinese" />
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/tea" />
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/north" />
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/coffee"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pizza"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chinese"
+                    android:layout_marginLeft="40dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tea"
+                    android:layout_marginLeft="50dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NorthIndian"
+                    android:layout_marginLeft="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coffee"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quick Picks For You"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#101821"/>
+
+
+    <ScrollView android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="112dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/chick" />
+
+                <ImageView
+                    android:layout_width="112dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/kfc" />
+
+                <ImageView
+                    android:layout_width="112dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/burg" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chicking"
+                    android:textSize="15dp"
+                    android:textColor="#F8000000"
+                    android:layout_marginLeft="40dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KFC"
+                    android:textSize="15dp"
+                    android:textColor="#F8000000"
+                    android:layout_marginLeft="90dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Burger Lounge"
+                    android:textSize="15dp"
+                    android:textColor="#F8000000"
+                    android:layout_marginLeft="70dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Angamaly"
+                    android:textSize="15dp"
+                    android:textColor="#F8000000"
+                    android:layout_marginLeft="40dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Angamaly"
+                    android:textSize="15dp"
+                    android:textColor="#F8000000"
+                    android:layout_marginLeft="60dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Angamaly"
+                    android:textSize="15dp"
+                    android:textColor="#F8000000"
+                    android:layout_marginLeft="60dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="112dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/chiyang"/>
+                <ImageView
+                    android:layout_width="112dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/pizz"/>
+                <ImageView
+                    android:layout_width="112dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/momo"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chiyang"
+                    android:textSize="15dp"
+                    android:textColor="#F8000000"
+                    android:layout_marginLeft="40dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dominos"
+                    android:textSize="15dp"
+                    android:textColor="#F8000000"
+                    android:layout_marginLeft="90dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dessi Dumplings"
+                    android:textSize="15dp"
+                    android:textColor="#F8000000"
+                    android:layout_marginLeft="70dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Angamaly"
+                    android:textSize="15dp"
+                    android:textColor="#F8000000"
+                    android:layout_marginLeft="40dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Angamaly"
+                    android:textSize="15dp"
+                    android:textColor="#F8000000"
+                    android:layout_marginLeft="70dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Angamaly"
+                    android:textSize="15dp"
+                    android:textColor="#F8000000"
+                    android:layout_marginLeft="70dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
